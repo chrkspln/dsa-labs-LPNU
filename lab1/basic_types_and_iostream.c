@@ -25,7 +25,6 @@ void example(void)
 	r1 = f1 / f2; // r1=3.6/0.5=7.2
 	r2 = (f1 < f2) ? f1 + 2 : --f2; // r2=(3.6<0.5)? нi (0.5–1)= –0.5
 	printf("r1=%5.2f r2=%5.2f\n", r1, r2);
-	system("pause");
 }
 
 void task_1(void)
@@ -39,7 +38,6 @@ void task_1(void)
 	r1 = f1 + 2 * f2; // r1=1.5+2*1.5=4.5
 	r2 = (f1 != f2) ? f1 - 0.3 : f2 + 0.4; // r2=(1.5!=1.5)? нi 1.5+0.4=1.9
 	printf("a1=%d a2=%d b1=%d b2=%d b3=%d f1=%5.2f f2=%5.2f r1=%5.2f r2=%5.2f\n", a1, a2, b1, b2, b3, f1, f2, r1, r2);
-	system("pause");
 }
 
 void task_2(void)
@@ -53,7 +51,6 @@ void task_2(void)
 	r1 = 2 * f1 - f2; // r1=2*1.5-1.5=2.5
 	r2 = (f1 == f2) ? f1 * 3 : f2 * 5; // r2=(1.5==1.5)? так 1.5*3=4.5
 	printf("a1=%d a2=%d b1=%d b2=%d b3=%d f1=%5.2f f2=%5.2f r1=%5.2f r2=%5.2f\n", a1, a2, b1, b2, b3, f1, f2, r1, r2);
-	system("pause");
 }
 
 void task_3(void)
@@ -67,7 +64,6 @@ void task_3(void)
 	r1 = f1 + 4 * f2; // r1=1.5+4*3.5=15.5
 	r2 = (f1 >= f2) ? f1 - 2.5 : f2 + 5.2; // r2=(1.5>=3.5)? нi 3.5+5.2=8.7
 	printf("a1=%d a2=%d b1=%d b2=%d b3=%d f1=%5.2f f2=%5.2f r1=%5.2f r2=%5.2f\n", a1, a2, b1, b2, b3, f1, f2, r1, r2);
-	system("pause");
 }
 
 void task_4(void)
@@ -81,7 +77,6 @@ void task_4(void)
 	r1 = f1 / f2 * 2; // r1=1.5/2.5*2=1.2
 	r2 = (f1 <= f2) ? f1 - 0.2 : f2 + 0.7; // r2=(1.5<=2.5)? так 1.5-0.2=1.3
 	printf("a1=%d a2=%d b1=%d b2=%d b3=%d f1=%5.2f f2=%5.2f r1=%5.2f r2=%5.2f\n", a1, a2, b1, b2, b3, f1, f2, r1, r2);
-	system("pause");
 }
 
 void task_5(void)
@@ -95,7 +90,6 @@ void task_5(void)
 	r1 = f1 + f2 / 2; // r1=4.5+1.8/2=5.4
 	r2 = (f1 > f2) ? f1 + 1.2 : f2 - 1.4; // r2=(4.5>1.8)? так 4.5+1.2=5.7
 	printf("a1=%d a2=%d b1=%d b2=%d b3=%d f1=%5.2f f2=%5.2f r1=%5.2f r2=%5.2f\n", a1, a2, b1, b2, b3, f1, f2, r1, r2);
-	system("pause");
 }
 
 int main(int argc, char* argv[])
@@ -106,5 +100,6 @@ int main(int argc, char* argv[])
 	task_3();
 	task_4();
 	task_5();
+	system("pause");
 	return 0;
 }
