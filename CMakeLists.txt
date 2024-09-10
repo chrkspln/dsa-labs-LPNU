@@ -10,3 +10,4 @@ set(PROJECT_SOURCE
 project(${PROJECT_NAME})
 add_executable(${PROJECT_NAME} ${PROJECT_SOURCE})
 add_subdirectory(lab1)
+add_subdirectory(lab2)
