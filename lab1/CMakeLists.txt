@@ -5,7 +5,7 @@ set(LAB_PROJECT_NAME
     Lab1
 )
 set(LAB_PROJECT_SOURCE
-    basic_types_and_iostream.cpp
+    basic_types_and_iostream.c
 )
 project(${LAB_PROJECT_NAME})
 add_executable(${LAB_PROJECT_NAME} ${LAB_PROJECT_SOURCE})
