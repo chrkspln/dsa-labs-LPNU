@@ -31,5 +31,7 @@
 *.out
 *.app
 
+.gitattributes
 .vs
 out
+CMakePresets.json
