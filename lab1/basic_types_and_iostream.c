@@ -9,7 +9,7 @@
 * 5.	a1=5; a2=13; a2-=a1+5; b1=a1+a22; b2=a1>a2; b3=b2++; f1=4.5; f2=1.8; r1=f1+f2/2; r2=(f1>f2)?f1+1.2:f2-1.4;
 */
 
-#include<stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 
 void example(void)
