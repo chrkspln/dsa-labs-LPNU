@@ -12,7 +12,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void example(void)
+void lab1_example(void)
 {
 	int a1 = 9, a2 = 2, b1, b2 = 0, b3;
 	a2 += a1; // a2=2+9=11
@@ -27,7 +27,7 @@ void example(void)
 	printf("r1=%5.2f r2=%5.2f\n", r1, r2);
 }
 
-void task_1(void)
+void lab1_task_1(void)
 {
 	int a1 = 3, a2 = 8, b1, b2, b3;
 	a2 -= a1; // a2=8-3=5
@@ -40,7 +40,7 @@ void task_1(void)
 	printf("a1=%d a2=%d b1=%d b2=%d b3=%d f1=%5.2f f2=%5.2f r1=%5.2f r2=%5.2f\n", a1, a2, b1, b2, b3, f1, f2, r1, r2);
 }
 
-void task_2(void)
+void lab1_task_2(void)
 {
 	int a1 = 2, a2 = 3, b1, b2, b3;
 	a2 *= 10; // a2=3*10=30
@@ -53,7 +53,7 @@ void task_2(void)
 	printf("a1=%d a2=%d b1=%d b2=%d b3=%d f1=%5.2f f2=%5.2f r1=%5.2f r2=%5.2f\n", a1, a2, b1, b2, b3, f1, f2, r1, r2);
 }
 
-void task_3(void)
+void lab1_task_3(void)
 {
 	int a1 = 6, a2 = 20, b1, b2, b3;
 	a2 /= 5; // a2=20/5=4
@@ -66,7 +66,7 @@ void task_3(void)
 	printf("a1=%d a2=%d b1=%d b2=%d b3=%d f1=%5.2f f2=%5.2f r1=%5.2f r2=%5.2f\n", a1, a2, b1, b2, b3, f1, f2, r1, r2);
 }
 
-void task_4(void)
+void lab1_task_4(void)
 {
 	int a1 = 3, a2 = 2, b1, b2, b3;
 	a2 += a1 + 5; // a2=2+3+5=10
@@ -79,7 +79,7 @@ void task_4(void)
 	printf("a1=%d a2=%d b1=%d b2=%d b3=%d f1=%5.2f f2=%5.2f r1=%5.2f r2=%5.2f\n", a1, a2, b1, b2, b3, f1, f2, r1, r2);
 }
 
-void task_5(void)
+void lab1_task_5(void)
 {
 	int a1 = 5, a2 = 13, b1, b2, b3;
 	a2 -= a1 + 5; // a2=13-5-5=3
@@ -92,14 +92,19 @@ void task_5(void)
 	printf("a1=%d a2=%d b1=%d b2=%d b3=%d f1=%5.2f f2=%5.2f r1=%5.2f r2=%5.2f\n", a1, a2, b1, b2, b3, f1, f2, r1, r2);
 }
 
+void lab1_run_all(void)
+{
+	lab1_example();
+	lab1_task_1();
+	lab1_task_2();
+	lab1_task_3();
+	lab1_task_4();
+	lab1_task_5();
+}
+
 int main(int argc, char* argv[])
 {
-	example();
-	task_1();
-	task_2();
-	task_3();
-	task_4();
-	task_5();
+	lab1_run_all();
 	system("pause");
 	return 0;
 }
