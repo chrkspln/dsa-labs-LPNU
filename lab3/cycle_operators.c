@@ -76,13 +76,18 @@ void lab3_task_5(void) {
     printf("Final sum: %d, Total cycles: %d\n\n", sum, n);
 }
 
-int main(void) {
+void lab3_run_all(void) {
+    lab3_example();
     lab3_task_1();
     lab3_task_2();
     lab3_task_3();
     lab3_task_4();
     lab3_task_5();
+}
 
+int main(int argc, char *argv[])
+{
+    lab3_run_all();
     system("pause");
     return 0;
 }
