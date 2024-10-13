@@ -67,7 +67,7 @@ void lab2_task_5(void)
 		printf("number %d is not divisible by 5\n", n);
 }
 
-void lab2_run_all()
+void lab2_run_all(void)
 {
 	lab2_example();
 	lab2_task_1();

@@ -12,5 +12,19 @@ int main(void)
 		fprintf(stderr, "Error: %d\n", lab1);
 		return lab1;
 	}
+
+	int lab2 = system("./Lab2");
+	if (!lab1)
+	{
+		fprintf(stderr, "Error: %d\n", lab2);
+		return lab2;
+	}
+
+	int lab3 = system("./Lab3");
+	if (!lab1)
+	{
+		fprintf(stderr, "Error: %d\n", lab3);
+		return lab3;
+	}
 	return 0;
 }
