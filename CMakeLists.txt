@@ -15,3 +15,4 @@ add_subdirectory(lab5)
 
 add_subdirectory(lab1_cpp)
 add_subdirectory(lab2_cpp)
+add_subdirectory(lab3_cpp)

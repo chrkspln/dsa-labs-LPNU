@@ -1,0 +1,7 @@
+set(LAB3_CPP_PROJECT_NAME
+    Lab3_CPP
+)
+set(LAB3_CPP_PROJECT_SOURCE
+    strings.cpp
+)
+add_executable(${LAB3_CPP_PROJECT_NAME} ${LAB3_CPP_PROJECT_SOURCE})
