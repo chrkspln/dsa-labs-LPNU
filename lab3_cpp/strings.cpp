@@ -23,7 +23,14 @@ void printASCIIT()
 		for (int col = 0; col < 8; ++col)
 		{
 			int asciiValue = ASCII_COLS_NUM * col + row;
-			char symbol = (asciiValue >= 32 && asciiValue <= 126) ? static_cast<char>(asciiValue) : '.';
+			char symbol;
+			if (asciiValue >= 32 && asciiValue <= 126)
+			{
+				symbol = static_cast<char>(asciiValue)
+			}
+			else {
+				symbol = '.';
+			}
 			std::cout << std::setw(5) << symbol;
 		}
 		std::cout << std::endl;
